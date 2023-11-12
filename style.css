@@ -10,10 +10,15 @@ body{
     flex-direction: column;
 }
 
+.container {
+    max-width:900px;
+    margin: 0 auto;
+}
+
 .header {
     background-color: #1f2937;
-    padding: 0 100px;
-    min-height: 40vh;
+    min-height: 60vh;
+
 
     
    
@@ -23,6 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
+    margin-bottom: 60px;
     align-items: center;
 }
 
@@ -41,16 +47,19 @@ body{
 }
 
 .content {
-    background-color: #1f2937;
+    /* background-color: #1f2937;
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 50px 0;
-    max-width: 900px;
+    padding: 50px 0;     */
+
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
 }
 
 .hero {
-    width: 600px;
+    width: 500px;
     height: 200px;
 }
 
@@ -108,6 +117,8 @@ body{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -115,6 +126,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    margin-top: 30px;
 }
 
 .box{
@@ -128,7 +140,6 @@ body{
     height: 200px;
     border: #3882f6 solid 3px;
     border-radius: 15px;
-    background-color: black;
     margin: 20px 0;
 }
 
@@ -144,7 +155,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 50vh;
+    min-height: 40vh;
 }
 
 .author {
@@ -174,4 +185,46 @@ body{
     color:#e5e7eb;
     ;
     
+}
+
+/*************** sign-up-section ***************/
+
+.sign-up-section{
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.case {
+    width: 1100px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.case p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.case span {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.case button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: #e5e7eb solid 2px;
+    background-color: transparent;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
 }
