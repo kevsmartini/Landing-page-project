@@ -163,6 +163,8 @@ body{
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
+    text-align: right;
+
 
 }
 
@@ -173,6 +175,7 @@ body{
     font-weight: lighter;
     color:#1f2937;
     text-align:justify;
+    
     
     
 }
